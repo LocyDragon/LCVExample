@@ -17,7 +17,7 @@ public void onEnable() {
 	list2.add("System.out.println(what);");
 	writer.addMethod("test", list2, "String what", false, ClassLevel.PRIVATE, "void");
 	if (writer.write("C://test//class")) {
-		System.out.println("д��ɹ�");
+		System.out.println("写入代码成功");
 	}
 }
 }
